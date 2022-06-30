@@ -39,7 +39,7 @@ const PostList = () => {
                 return <Post ele={ele} key={ele.id} />;
             })
         )}
-        <PaginationButtonsList page={page} clickHandler={clickHandle} />
+        <PaginationButtonsList page={page} clickHandler={clickHandler} />
         </>
     );
 };
