@@ -46,4 +46,3 @@ const PostList = () => {
 
 export { PostList };
 
-export { PostList }
